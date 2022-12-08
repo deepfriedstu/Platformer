@@ -42,7 +42,6 @@ namespace Platformer
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
             _ball.Attach(new Sprite(Content.Load<Texture2D>("ball")));
             _ball.Attach(new Transform2());
             _ball.Attach(new Physics());
